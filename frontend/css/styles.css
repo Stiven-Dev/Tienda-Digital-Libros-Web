@@ -1,44 +1,57 @@
-.titulo-central h1{
-   text-align: center;
-   font-size: 2.5em;
-   color: #333;
-   margin-top: 50px;
-   margin-bottom: 20px;
+.container {
+  background: fixed url('../assets/main-background.webp') no-repeat center center;
+  opacity: 1;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
 }
+
+.titulo-principal h1 {
+  text-align: center;
+  font-family: 'Lucida sans Unicode';
+  font-size: 2.5em;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
 .table-libros {
-  background-color: rgb(221, 161, 30);
-  margin: 100px 0;
-  padding: 32px;
-  border-radius: 12px;
+  background-color: rgb(187, 203, 218);
+  margin: 25px 0;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 /* Aplica a la tabla */
 .table-libros table {
   width: 100%;
   border-collapse: collapse;
-  background: white;
+  background: rgb(223, 223, 223);
   border-radius: 8px;
   overflow: hidden;
 }
 
 /* Cabecera de la tabla */
 .table-libros thead {
-  background-color: #d9a11e;
+  background-color: #1ed9a1;
   color: #fff;
 }
 
-.table-libros th, .table-libros td {
-  padding: 12px 16px;
+.table-libros th,
+.table-libros td {
+  padding: 10px 20px;
   border-bottom: 1px solid #eee;
   text-align: left;
 }
 
 .table-libros th {
-  font-size: 1.1em;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
 /* Efecto hover en filas */
 .table-libros tbody tr:hover {
-  background-color: #f7e3b4;
+  background-color: #29adbe;
 }
