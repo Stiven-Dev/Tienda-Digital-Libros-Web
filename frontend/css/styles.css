@@ -1,0 +1,44 @@
+.titulo-central h1{
+   text-align: center;
+   font-size: 2.5em;
+   color: #333;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.table-libros {
+  background-color: rgb(221, 161, 30);
+  margin: 100px 0;
+  padding: 32px;
+  border-radius: 12px;
+}
+
+/* Aplica a la tabla */
+.table-libros table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Cabecera de la tabla */
+.table-libros thead {
+  background-color: #d9a11e;
+  color: #fff;
+}
+
+.table-libros th, .table-libros td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.table-libros th {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Efecto hover en filas */
+.table-libros tbody tr:hover {
+  background-color: #f7e3b4;
+}
